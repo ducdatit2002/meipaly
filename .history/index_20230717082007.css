@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* flex => list */
+header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container {
+        width: 90%;
+            max-width: 1200px;
+}
+.header__container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+/* Trục chính default là chiều ngang */
+/* Justify-content: trục chính */
+/* align-items: trục phụ */
+header span {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 26px;
+    transition: 0.5s;
+}
+header a.active, header a:hover {
+    color: #e62b4a;
+}
+
+/* BANNER */
+.banner {
+    background-image: url(./img/home_slider.jpg);
+    height: 90vh;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner__container {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* chuyển trục chính từ ngang sang dọc */
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.banner__container p{
+    font-size: 25px;
+}
+.banner__container h2 {
+    font-size: 75px;
+    line-height: 90px;
+    text-align: center;
+}
+.banner__container button {
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #e62b4a;
+    color: white;
+    border: 1px solid #e62b4a;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.banner__container button:hover {
+    background-color: #af2239;
+}

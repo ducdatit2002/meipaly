@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meipaly</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css" />
+    
+  <body>
+    <header>
+      <div class="header__container container">
+        <span>meipaly</span>
+        <nav>
+            <a href="#" class="active">HOME</a>
+            <a href="#">SERVICE</a>
+            <a href="#">SHOWCASE</a>
+            <a href="#">BLOG</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <section class="banner">
+        <div class="banner__container">
+            <p>WELCOME TO MEIPALY AGENCY</p>
+            <h2>
+                SMART WEB
+                DESIGN AGENCY
+            </h2>
+            <button>READ MORE</button>
+            <i class="fa fa-angle-down"></i>
+        </div>
+    </section>
+    <section class="carousel">
+      <div class="carousel__title">
+        <p>SERVICES WE ARE OFFERING</p>
+        <h2>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW <br> BUSINESSES.</h2>
+        <p>
+          We are committed to providing our customers with exceptional service while offering
+          <br>
+          our employees the best training.
+        </p>
+      </div>
+      <div class="container">
+        <div class="carousel__list">
+          <!-- START LIST ITEM -->
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fa fa-memory"></i>
+              <p>APP MOBILE <br>DEVELOPMENT </p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fab fa-autoprefixer"></i>
+              <p>DIGITAL <br>MARKETING</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fab fa-battle-net"></i>
+              <p>SEO & CONTENT <br>WRITING</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fa fa-dice-d6"></i>
+              <p>APP MOBILE <br>DEVELOPMENT </p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fa fa-blog"></i>
+              <p>WEBSITE <br>DEVELOPMENT</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fa fa-blog"></i>
+              <p>WEBSITE <br>DEVELOPMENT</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fa fa-blog"></i>
+              <p>WEBSITE <br>DEVELOPMENT</p>
+            </div>
+          </div>
+          <!-- END LIST ITEM -->
+        </div>
+      </div>
+
+    </section>
+    <section class="blog">
+      <div class="container">
+        <div class="blog__list">
+          <div class="blog__item">
+            <img src="./img/" alt="">
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="number"></section>
+    <section class="experience"></section>
+    <section class="contact"></section>
+    <footer></footer>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+      crossorigin="anonymous"></script>
+    <!-- Slick -->
+    <script src="./slick-1.8.1/slick/slick.js"></script>
+    <script>
+      $(document).ready(function () {
+          $('.carousel__list').slick({
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 3,
+            arrows: false,
+            dots:true
+            // setting- name: setting - value
+        });
+      });
+    </script>
+
+  </body>
+</html>

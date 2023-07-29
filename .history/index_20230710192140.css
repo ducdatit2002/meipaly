@@ -1,0 +1,16 @@
+/* flex => list */
+.header {
+    display: flex;
+    
+}
+.header__container {
+    height: 80px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/* Trục chính default là chiều ngang */
+/* Justify-content: trục chính */
+/* align-items: trục phụ */

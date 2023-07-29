@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* flex => list */
+header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header__container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+/* Trục chính default là chiều ngang */
+/* Justify-content: trục chính */
+/* align-items: trục phụ */
+header span {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 26px;
+}
+header .active {
+    color: red;
+}
+/* BANNER */
+.banner {
+    background-image: url(./img/home_slider.jpg);
+    height: 90vh;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner__container {
+    border: 2px solid red;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* chuyển trục chính từ ngang sang dọc */
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.banner_container p{
+    font-size: 25px;
+}
+.banner__

@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* flex => list */
+header {
+    display: flex;
+    justify-content: center;
+}
+.header__container {
+    height: 80px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+header .span {
+    font-size: ;
+}
+/* Trục chính default là chiều ngang */
+/* Justify-content: trục chính */
+/* align-items: trục phụ */
